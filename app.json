@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "renty",
+    "slug": "renty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#13428D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#13428D"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0c3385b-4a13-4a03-8ad8-f61c672fb95a"
+      }
+    },
+    "owner": "olimpdigital",
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
